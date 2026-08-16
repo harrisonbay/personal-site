@@ -1,0 +1,52 @@
+baseURL = "https://harrisonbay.xyz/"
+locale = "en-us"
+title = "Harrison Bay"
+theme = "shibui"
+enableGitInfo = true
+enableRobotsTXT = true
+
+[params]
+  description = "Notes and essays by Harrison Bay."
+  comments = false
+  showtoc = true
+  showreadingtime = true
+  showlastmod = true
+
+  [params.author]
+    name = "Harrison Bay"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = true
+    style = "algol_nu"
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = true
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  expiryDate = ["expiryDate"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

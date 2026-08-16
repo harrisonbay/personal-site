@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hugo: Preview drafts",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "server",
+        "-D",
+        "--openBrowser",
+        "--cacheDir",
+        "${workspaceFolder}/.cache"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Hugo: Production build",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "--gc",
+        "--minify",
+        "--cacheDir",
+        "${workspaceFolder}/.cache"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+

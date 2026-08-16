@@ -1,0 +1,28 @@
+:root {
+  /* Warm, gently aged paper rather than a bright white screen. */
+  --bg-h: 41;
+  --bg-s: 38%;
+  --bg-l: 89%;
+
+  /* A comfortable measure for long-form essays. */
+  --container-width: 76ch;
+  --font-size-base: 0.9rem;
+  --font-size-small: 0.78rem;
+  --font-size-code: 0.84rem;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  background-image:
+    radial-gradient(circle at 18% 12%, hsl(44 55% 95% / 45%), transparent 34rem),
+    radial-gradient(circle at 82% 78%, hsl(34 42% 82% / 28%), transparent 40rem);
+  background-attachment: fixed;
+}
+
+/* Shibui narrows large screens further by default; keep the essay column roomy. */
+@media (min-width: 1024px) {
+  body {
+    grid-template-columns: 1fr minmax(0, var(--container-width)) 1fr;
+  }
+}
+
