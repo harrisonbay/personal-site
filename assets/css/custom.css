@@ -28,8 +28,8 @@ body {
 
 
 /*
-  Season (Displaay). The files in /fonts/season/ are trial builds and are
-  ignored by git. Replace them with the licensed web files before a deploy.
+  Season (Displaay). The files in /fonts/season/ are trial builds. Replace
+  them with the licensed web files.
 */
 @font-face {
   font-family: "Season Serif";
