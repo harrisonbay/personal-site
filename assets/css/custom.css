@@ -26,3 +26,211 @@ body {
   }
 }
 
+
+/*
+  Season (Displaay). The files in /fonts/season/ are trial builds and are
+  ignored by git. Replace them with the licensed web files before a deploy.
+*/
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-Regular 400 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-RegularItalic 400 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-Medium 500 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-MediumItalic 500 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-SemiBold 600 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-SemiBoldItalic 600 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-Bold 700 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Serif";
+  src: url("/fonts/season/SeasonSerif-TRIAL-BoldItalic 700 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-Regular 400 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-RegularItalic 400 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-Medium 500 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-MediumItalic 500 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-SemiBold 600 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-SemiBoldItalic 600 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-Bold 700 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Mix";
+  src: url("/fonts/season/SeasonMix-TRIAL-BoldItalic 700 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-Regular 400 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-RegularItalic 400 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-Medium 500 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-MediumItalic 500 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-SemiBold 600 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-SemiBoldItalic 600 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-Bold 700 normal.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Season Sans";
+  src: url("/fonts/season/SeasonSans-TRIAL-BoldItalic 700 italic.woff2") format("woff2");
+  font-weight: ;
+  font-style: ;
+  font-display: swap;
+}
+
+:root {
+  --font-family-body: "Season Serif", Georgia, "Times New Roman", serif;
+  --font-family-heading: "Season Mix", Georgia, serif;
+  --font-family-ui: "Season Sans", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-family-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family-heading);
+}
+
+.terminal-nav,
+.path-nav,
+.time-list__date,
+.archive-item time,
+.toc,
+footer {
+  font-family: var(--font-family-ui);
+}
+
+/* Code keeps the theme's monospace face. */
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--font-family-mono);
+}
